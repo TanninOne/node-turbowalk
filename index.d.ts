@@ -44,7 +44,7 @@ declare module "turbowalk" {
   }
 
   function turbowalk(basePath: string, progress: (entries: IEntry[]) => void,
-                     options?: IWalkOptions): Bluebird<void>;
+                     options?: IWalkOptions): Promise<void>;
 
   export default turbowalk;
 }

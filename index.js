@@ -1,9 +1,3 @@
-let bluebird;
-try {
-  bluebird = require('bluebird');
-  Promise = bluebird;
-} catch (err) { }
-
 let walk;
 
 if (process.platform === 'win32') {
